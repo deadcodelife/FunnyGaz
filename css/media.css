@@ -1,0 +1,181 @@
+@media (max-width: 1270px) {
+    
+}
+
+@media (max-width: 870px) {
+    .seinfo__decor {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 840px) {
+    
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background: var(--footer-color);
+        transform: translateX(-100%);
+        transition: transform 0.5s; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .nav.active {
+        transform: translateX(0);
+    }
+
+    .header__nav {
+        flex-direction: column;
+        
+    }
+
+    .header__item {
+        padding: 10px 0;
+        font-size: 28px;
+    }
+    .header__item + .header__item  {
+        margin-top: 10px;
+    }
+    .burger {
+        display: flex;
+    }
+
+    .catalog-inner {
+        justify-content: center;
+    }
+
+    .section__title {
+        font-size: 20px;
+    }
+
+    .section__subtitle {
+        font-size: 16px;
+    }
+
+    .info__inner {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .question__item-title {
+        font-size: 20px;   
+        margin-bottom: 15px;
+    }
+    .more__item {
+        padding: 24px;
+    }
+    .more__item-title {
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 600px)  {
+    .info__decor {
+        font-size: 20px;
+        padding: 15px;
+    }
+    .question__item-answer {
+        line-height: 1.1;
+    }
+    .question__item-title::after {
+        opacity: 0;
+    }
+    .question__item-title.active::after {
+        opacity: 0;
+    }
+    .guarantee__item-text {
+        font-size: 16px;
+    }
+    .guarantee__info {
+        font-size: 15px;
+    }
+    .more__item {
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .more__item-img img {
+        height: 85%;
+    } 
+}
+
+@media (max-width: 500px) {
+
+    .favorite__item-img {
+        max-width: 190px;
+    }
+
+    .info__decor::before, .info__decor::after {
+        opacity: 0;
+    }
+
+    .question__item-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .question__item-answer {
+        font-size: 16px;
+    }
+    
+    .question__item-answer {
+        line-height: 1;
+    }
+    .contacts__item {
+        font-size: 16px;
+    }
+
+    .guarantee__item-img img {
+        max-width: 40px;
+        height: 38px;
+    }
+    .connect__btn  {
+        font-size: 14px;
+    }
+    .delivery__item-text {
+        font-size: 1.1em;
+    }
+}
+
+
+@media (max-width: 400px) {
+    
+    .section__title {
+        font-size: 18px;
+    }
+
+    .info__decor {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .delivery__item-text {
+        font-size: 16px;
+    }
+    .more__item-img {
+        margin-bottom: 15px;
+    }
+    .more__item-img img {
+        height: 100%;
+    } 
+}
+
+@media (max-width: 340px) {
+
+    .catalog-item {
+        padding: 15px 45px;
+    }
+
+    .catalog-item-btn {
+        font-size: 14px;
+    } 
+}
